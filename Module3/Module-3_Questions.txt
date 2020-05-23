@@ -1,0 +1,36 @@
+1) Write an iterator class “my_reverse_list”, that takes a list and iterates it from the reverse direction
+
+2) Using generator function print the Fibonacci series.
+
+=====================================================
+
+3) Write a python program to do the following. Identify the negative test cases for your functions/code that will be there and add proper /exception handling code for those. (Consider using “asserts” too)
+
+a. Get a name of a file (say “myoutput”, which should be finally updated) from the user through command line. (If this file is already there in the current directory, then rename it to “myoutputput_old”, and create an empty “myoutput”)
+
+b. Get a list of all “.txt” files from the current directory.
+
+c. Do the following for all files found from step b
+
+i. Read the text, tokenize and store all tokens in a python list. (Tokens can be separated with space, tab, comma, and semicolon).
+
+ii. Display the list of tokens.
+
+iii. Search for those tokens which are of even length and display them.
+
+iv. Delete the list elements having the tokens of even length
+
+v. Display the modified list.
+
+vi. Update the output file (created in step a) with the contents of the modified list.
+===========================================================================================
+
+4) Write a python program that can take as input a URL, fetch that web page, and strip out all of the HTML tags. (For purposes of this assignment, anything between < and > is a tag). Identify the negative test cases for your functions/code that will be there and add proper error/exception handling code for those. Note the additional requirements as given below.
+
+a) You should implement two methods for doing this:
+
+b) One in which you scan the document and keep track of opening and closing brackets
+
+c) And one in which you use the re module (or you may write your own function/use any other module) to replace tags with empty strings.
+
+d) Your program should also have a command-line argument that allows the user to specify which method is used. (Choose any one of the methods as the default one, if the user does not specify and command line argument.)

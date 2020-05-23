@@ -1,0 +1,35 @@
+1) Implement suitable classes to the following tasks in text processing. The data source can be standard input or a file.
+-----------------------------
+
+a. Find the first occurrence of a search pattern inside a given text. (Write your implementation of searching a pattern)
+
+b. Replace all occurrence of a searched pattern with the replacement pattern.
+
+c. Remove all duplicate strings in a given input.
+
+d. Count the number of characters/words/lines in a given input
+
+===============================
+
+2) Implement a Password class that can
+-----------------------
+
+a. Accept passwords from user input / given file
+
+b. Check the strength of password using logic given below and classify them as
+
+“Invalid”, “Weak”, “Medium”, “Strong”.
+
+a) If it is a word or reverse of a word from "mydict.txt", then print invalid.
+
+b) At least one uppercase and one lower case letter should be there.
+
+c) At least one number should be there.
+
+d) At least one special character (consider special characters to be those characters which are not letters or digits) should be there.
+
+e) A length of at least eight characters (if less than eight print invalid)
+
+Now consider statements b, c, d, e. If your password satisfies rule e, then check for rules b, c, d. Print "Weak" if only one rule (or even none of the rules from b, c, d is getting satisfied) is satisfied, "Medium" if two rules are satisfied, "Strong" if 3 rules are satisfied.
+
+Note: “mydict.txt” is a reference file that should be available. You need to read this file initially.
